@@ -1,0 +1,297 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: 'Museo Sans Cyrl 300', Tahoma, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*Стилизация header с фоном*/
+/*Стили для текста (левая часть)*/
+
+.main-background {
+	background: #2e372d url(../img/background-main.jpg) center top;
+	background-size: cover;
+	padding: 50px 0 80px 0;
+	margin: 0;
+}
+
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+
+.logo-head {
+	font-family: 'Museo Sans Cyrl 900', Tahoma, sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+.logo-head span {
+	font-family: 'Museo Sans Cyrl 100', Tahoma, sans-serif;
+}
+
+.menu-style {
+	font-family: 'Museo Sans Cyrl 900', Tahoma, sans-serif;
+	list-style: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+
+	width: 320px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.menu-style a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.email {
+	font-size: 13px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.flex-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.head-job-text {
+	font-family: 'Natasha', Tahoma, sans-serif;
+	font-size: 49px;
+	margin: 0 auto;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	margin-top: 290px;
+}
+
+.head-job-descrip {
+	font-family: 'Museo Sans Cyrl 100', Tahoma, sans-serif;
+	font-size: 29px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	margin-top: 33px;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.arrow-down {
+	margin: 0 auto;
+	margin-top: 264px;
+	display: block;
+}
+
+/*Стилизация секции "Обо мне*/
+
+.about-me {
+	padding: 85px 0 50px 0;
+}
+
+.about-me h2 {
+	font-family: 'Natasha', Tahoma, sans-serif;
+	font-size: 37px;
+	text-transform: uppercase;
+	padding: 0;
+	margin-bottom: 78px;
+	color: #000;
+}
+
+.about-me h3 {
+	font-family: 'Natasha', Tahoma, sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 0;
+	color: #888886;
+}
+
+.head-text-background {
+	margin: 0 0 43px 0;
+}
+
+.text-about-me {
+	width: 426px;
+	padding: 0;
+	margin: 0;
+}
+
+.text-about-me p {
+	margin: 35px 0 0 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 27px;
+	color: #22241b;
+	text-align: left;
+}
+
+/*Стили для ромбов (правая часть)*/
+
+.head-text-marks {
+	margin: 0 0 55px 0;
+}
+
+.romb-project {	
+	color: #204d15;	
+	margin: 0;
+}
+
+.romb-project span {
+	transform: rotate(-135deg);
+}
+
+.light-green-romb {
+	border: 1px solid #c6d6bb;
+	padding: 20px 20px;
+	width: 58px;
+	height: 58px;
+	position: relative;
+	transform: rotate(135deg);
+}
+
+.green-romb {
+	border: 1px solid #204d15;
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: -14%;
+	left: -14%;
+}
+
+.romb-number {
+	font-size: 20px;
+	font-family: 'Museo Sans Cyrl 100', Tahoma, sans-serif;
+	color: #204d15;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+}
+
+.romb-full {
+	width: 73px;
+	height: 73px;
+	position: relative;
+	margin-right: -9px;
+}
+
+.romp-descrip {
+	font-size: 12px;
+	font-family: 'Museo Sans Cyrl 100', Tahoma, sans-serif;
+	line-height: 18px;
+	color: #22241b;
+	text-transform: uppercase;
+	margin: 28px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+.romb-and-descrip {
+	width: 107px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.romp-descrip-age {
+	font-size: 12px;
+	font-family: 'Museo Sans Cyrl 100', Tahoma, sans-serif;
+	line-height: 18px;
+	color: #22241b;
+	text-transform: uppercase;
+	margin: 28px 0 0 0;
+	padding: 0;
+	text-align: center;
+	width: 40px;
+}
+
+.romb-and-descrip:nth-of-type(2) .romb-number {
+	left: 18%;
+}
+
+.romb-and-descrip:last-of-type .romb-number {
+	left: 33%;
+}
+
+.romb-flex {
+	width: 460px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 20px 0 20px;
+}
+
+/*Стилизация контактов*/
+
+.contacts {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0;
+	padding: 0;
+
+}
+
+.contacts li {
+	color: #204d15;
+	border-bottom: 1px solid #becbbb;
+	font-size: 14px;
+	display: inline-block;
+	margin: 18px 0 0 0;
+	padding: 0;
+}
+
+.head-text-contacts {
+	margin: 70px 0 40px 0;
+}
+
+.person-icon-descrip {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.person-icon-descrip p {
+	color: #797a77;
+	font-style: italic;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 0 20px;
+}
+
+.flex-about-me {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.flex-for-contacts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
