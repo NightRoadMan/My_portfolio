@@ -99,5 +99,9 @@
 		margin-left: -10px;
 	}
 
+	body {
+		max-width: 100%;
+	}
+
 }
 
