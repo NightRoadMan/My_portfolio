@@ -15,7 +15,7 @@ body {
 .main-background {
 	background: #2e372d url(../img/background-main.jpg) center top;
 	background-size: cover;
-	padding: 50px 0 80px 0;
+	padding: 52px 0 80px 0;
 	margin: 0;
 }
 
@@ -87,7 +87,7 @@ body {
 	text-align: center;
 	color: #fff;
 	margin-top: 290px;
-	letter-spacing: 8px;
+	letter-spacing: 5px;
 }
 
 .head-job-descrip {
@@ -96,7 +96,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	color: #fff;
-	margin-top: 33px;
+	margin-top: 18px;
 	text-transform: uppercase;
 	padding: 0;
 	letter-spacing: 4px;
@@ -104,14 +104,14 @@ body {
 
 .arrow-down {
 	margin: 0 auto;
-	margin-top: 264px;
+	margin-top: 256px;
 	display: block;
 }
 
 /*Стилизация секции "Обо мне*/
 
 .about-me {
-	padding: 85px 0 50px 0;
+	padding: 53px 0 50px 0;
 }
 
 .about-me h2 {
@@ -119,8 +119,9 @@ body {
 	font-size: 37px;
 	text-transform: uppercase;
 	padding: 0;
-	margin-bottom: 78px;
+	margin-bottom: 68px;
 	color: #000;
+	letter-spacing: 6px;
 }
 
 .about-me h3 {
@@ -129,10 +130,11 @@ body {
 	text-transform: uppercase;
 	padding: 0;
 	color: #888886;
+	letter-spacing: 3px;
 }
 
 .head-text-background {
-	margin: 0 0 43px 0;
+	margin: 0 0 36px 0;
 }
 
 .text-about-me {
@@ -142,7 +144,7 @@ body {
 }
 
 .text-about-me p {
-	margin: 35px 0 0 0;
+	margin: 27px 0 0 0;
 	padding: 0;
 	font-size: 15px;
 	line-height: 27px;
@@ -153,7 +155,7 @@ body {
 /*Стили для ромбов (правая часть)*/
 
 .head-text-marks {
-	margin: 0 0 55px 0;
+	margin: 0 0 65px 0;
 }
 
 .romb-project {	
@@ -271,7 +273,7 @@ body {
 }
 
 .head-text-contacts {
-	margin: 70px 0 40px 0;
+	margin: 60px 0 16px 0;
 }
 
 .person-icon-descrip {
@@ -305,7 +307,7 @@ body {
 
 /*Cтилизация "Навыки"*/
 .skills {
-	padding: 50px 0 40px 0;
+	padding: 36px 0 35px 0;
 }
 
 .skills h2 {
@@ -313,8 +315,9 @@ body {
 	font-size: 37px;
 	text-transform: uppercase;
 	padding: 0;
-	margin: 0 0 65px 0;
+	margin: 0 0 53px 0;
 	color: #000;
+	letter-spacing: 6px;
 }
 
 .green-circle {
@@ -356,6 +359,7 @@ body {
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0 0 0 27px;
+	letter-spacing: 2px;
 }
 
 .flex-circle-and-program {
@@ -363,7 +367,7 @@ body {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	width: 240px;
+	width: 250px;
 }
 
 .flex-skills {
@@ -371,6 +375,8 @@ body {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	margin-right: -30px;
+
 }
 
 .flex-circle-and-program:nth-child(3) span {
@@ -392,8 +398,9 @@ body {
 	font-size: 37px;
 	text-transform: uppercase;
 	padding: 0;
-	margin: 0 0 65px 0;
+	margin: 0 0 55px 0;
 	color: #000;
+	letter-spacing: 6px;
 }
 
 .image-job {
@@ -459,6 +466,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 4px 0 4px;
 }
 
 /*Стилизация футтера*/
@@ -472,4 +480,6 @@ body {
 	color: #888886;
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
