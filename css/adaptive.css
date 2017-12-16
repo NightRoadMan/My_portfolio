@@ -1,0 +1,103 @@
+/* Планшеты Tablets 1024px-768px */
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 90%;
+	}
+	
+	.flex-about-me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+}
+
+	.text-about-me {
+		width: 100%;
+	}
+
+	.head-text-marks {
+		margin: 40px 0 65px 0;
+	}
+
+	.head-text-marks {
+		display: block;
+		text-align: left;
+	}
+
+	.romb-flex {
+		margin: 0 auto;
+	}
+
+	.flex-skills {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	.flex-circle-and-program {
+		margin-top: 30px;
+		width: 50%
+	}
+	.flex-for-contacts {
+		margin: 0 auto;
+	}
+
+	.flex-jobs-image {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.image-job {
+		margin-top: 20px;
+	}
+
+	.footer-text p {
+		text-align: center;
+	}
+}
+
+
+/* Мобильные Mobile 768px-0px */
+
+@media screen and (max-width: 768px) {
+	.menu-style {
+		display: none;
+	}
+
+	.person-icon-descrip {
+		display: none;
+	}
+
+	.flex-skills {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.romb-flex {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+	.romb-and-descrip {
+		margin-top: 60px;
+	}
+
+	.romp-descrip-age:last-of-type {
+		margin-left: -10px;
+	}
+
+}
+

@@ -303,6 +303,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	width: 460px;
 }
 
 /*Cтилизация "Навыки"*/
@@ -344,7 +345,7 @@ body {
 	color: #204d15;
 	position: absolute;
 	text-align: center;
-	top: 25px;
+	top: 24px;
 	left: 20px;
 }
 
@@ -376,7 +377,6 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	margin-right: -30px;
-
 }
 
 .flex-circle-and-program:nth-child(3) span {
