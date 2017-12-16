@@ -82,6 +82,7 @@ body {
 	text-align: center;
 	color: #fff;
 	margin-top: 290px;
+	letter-spacing: 8px;
 }
 
 .head-job-descrip {
@@ -93,6 +94,7 @@ body {
 	margin-top: 33px;
 	text-transform: uppercase;
 	padding: 0;
+	letter-spacing: 4px;
 }
 
 .arrow-down {
@@ -294,4 +296,82 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+/*Cтилизация "Навыки"*/
+.skills {
+	padding: 50px 0 0 40px;
+}
+
+.skills h2 {
+	font-family: 'Natasha', Tahoma, sans-serif;
+	font-size: 37px;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0 0 65px 0;
+	color: #000;
+}
+
+.green-circle {
+	width: 61px;
+	height: 61px;
+	border: 1px solid #204d15;
+	border-radius: 50%;
+	position: relative;
+}
+
+.light-green-circle {
+	width: 49px;
+	height: 49px;
+	border: 1px solid #adb2ac;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.cicle-and-descrip-flex span {
+	font-size: 13px;
+	font-family: 'Museo Sans Cyrl 100', Tahoma, sans-serif;
+	color: #204d15;
+	position: absolute;
+	text-align: center;
+	top: 25px;
+	left: 20px;
+}
+
+.cicle-and-descrip-flex {
+	position: relative;
+}
+
+.flex-circle-and-program p {
+	font-family: 'Museo Sans Cyrl 900', Tahome, sans-serif;
+	font-size: 15px;
+	color: #4b4c47;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0 0 0 27px;
+}
+
+.flex-circle-and-program {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 240px;
+}
+
+.flex-skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-circle-and-program:nth-child(3) span {
+	left: 16px;
+}
+
+.flex-circle-and-program:last-child span {
+	left: 23px;
 }
